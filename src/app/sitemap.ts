@@ -4,13 +4,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Static pages (unchanged—add more as you build)
   const staticPages = [
     {
-      url: 'https://yourdomain.com',  // Replace with live URL (Vercel or theprofitpapers.com)
+      url: 'https://theprofitpapers.com',  // Replace with live URL (Vercel or theprofitpapers.com)
       lastModified: new Date(),
       changeFrequency: 'yearly' as const,
       priority: 1,
     },
     {
-      url: 'https://yourdomain.com/about',  // Example—remove if not ready
+      url: 'https://theprofitpapers.com/about',  // Example—remove if not ready
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.8,
